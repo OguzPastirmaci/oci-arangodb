@@ -1,0 +1,7 @@
+compartment_ocid="ocid1.compartment.oc1..aaaaaaaat2nis2n7qzh7tdbspyp2tqz54mbp3t4tqa6s3ymk5ui33xlxy66a"
+tenancy_ocid="ocid1.tenancy.oc1..aaaaaaaaebxriz7y7egelwfkjdbnjdvq6k5vaaxo3o35fvfzf3g7ryvxevka"
+user_ocid="ocid1.user.oc1..aaaaaaaa3vdg7ogbpnpgfcsxf2ma6y226hnbzauiac2v5zvcuob5fyhujnva"
+fingerprint="58:f0:99:c4:7f:ba:60:82:28:89:21:72:a1:2b:26:6d"
+private_key_path="~/.ssh/id_rsa"
+region="us-ashburn-1"
+ssh_public_key="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDnxgFzBYZsPmU+bqsc9SRtWDa84vHPX86pp/EOm26PuWDMdyQMCTzmMlkqiPAmcQfcoeoFmNfPEVxyms9bT4Yw2agH2jzJD8CDg/8xbLHkqLe/lO8kYCeie4ssIZ66vMj0yHm527CItBaNRX9aSw8jwXoNkeQ+petGbABXp9vXeyUXamomCM/9wOrQhQxoWk2MzNfDAEv33Q8x8ivX6azFnnlhXM8HZzVrlI2itVGxn+xLkRrxLJG7xstUvxx4LYeaNPwJQKTFK2+9eQ7OsnOX26FRDWxwOIeiDiFTcLcZlzf8CLYYUMqDD7Oriu2HPJyjTaYUnVNGc3aD8Qqys8F opastirm@opastirm-mac"

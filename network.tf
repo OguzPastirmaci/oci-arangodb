@@ -22,7 +22,6 @@ resource "oci_core_internet_gateway" "ArangoIG" {
   display_name   = "ArangoIG"
   vcn_id         = "${oci_core_virtual_network.ArangoVCN.id}"
 }
-
 resource "oci_core_route_table" "ArangoRT" {
   compartment_id = "${var.compartment_ocid}"
   vcn_id         = "${oci_core_virtual_network.ArangoVCN.id}"
@@ -32,31 +31,5 @@ resource "oci_core_route_table" "ArangoRT" {
     destination       = "0.0.0.0/0"
     destination_type  = "CIDR_BLOCK"
     network_entity_id = "${oci_core_internet_gateway.ArangoIG.id}"
-  }
-}
-
-resource "oci_core_security_list" "ArangoSecurityList" {
-  compartment_id = "${var.compartment_ocid}"
-  vcn_id         = "${oci_core_virtual_network.ArangoVCN.id}"
-  display_name   = "ArangoSecurityList"
-
-  ingress_security_rules {
-    protocol = "6"
-    source   = "0.0.0.0/0"
-
-    tcp_options {
-      max = "22"
-      min = "22"
-    }
-  }
-
-  ingress_security_rules {
-    protocol = "6"
-    source   = "0.0.0.0/0"
-
-    tcp_options {
-      max = "8529"
-      min = "8529"
-    }
   }
 }
