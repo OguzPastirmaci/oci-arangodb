@@ -1,5 +1,7 @@
 # oci-arangodb
 
+![](https://www.arangodb.com/wp-content/uploads/2016/05/ArangoDB_logo_@3.png "ArangoDB logo")
+
 Terraform module for deploying a single node ArangoDB instance.
   
 ## Prerequisites
