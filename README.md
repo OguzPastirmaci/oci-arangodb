@@ -10,7 +10,7 @@ First off you'll need to do some pre deploy setup.  That's all detailed [here](h
 ## 1. Clone the repository
 Now, you'll want a local copy of this repo. You can make that with the commands:
 
-`git clone https://github.com/OguzPastirmaci/oci-arangodb.git`
+`git clone https://github.com/cloud-partners/oci-arangodb.git`
 
 ## 2. Deploy
 You can deploy with the following Terraform commands:
