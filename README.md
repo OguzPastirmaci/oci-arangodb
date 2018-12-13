@@ -25,7 +25,7 @@ When the deployment is completed, it will show you the public IP of the instance
 
 `ssh -L 8529:localhost:8529 opc@<public IP of the instance>`
 
-After that, you can simply browse to (http://localhost:8529)[http://localhost:8529]. Username is `root` and the password is `ARANGODBONOCI`.
+After that, you can simply browse to (http://localhost:8529)[]. Username is `root` and the password is `ARANGODBONOCI`.
 
 ## Destroy the Deployment
 When you no longer need the deployment, you can run this command to destroy it:
